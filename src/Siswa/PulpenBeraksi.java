@@ -12,8 +12,8 @@ package Siswa;
 public class PulpenBeraksi {
     public static void main(String[] args) {
         // Membuat objek Pulpen
-        Pulpen pulpen1 = new Pulpen("Pilot", "Biru", 14000);
-        Pulpen pulpen2 = new Pulpen("Snowman", "Hitam", 9000);
+        Pulpen pulpen1 = new Pulpen("Pilot", "Biru", 14000, "4cm");
+        Pulpen pulpen2 = new Pulpen("Snowman", "Hitam", 9000, "5cm");
 
         // Menampilkan data pulpen
         System.out.println("Informasi Pulpen 1:");
